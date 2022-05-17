@@ -1,12 +1,11 @@
 #' prepareText
 #'
-#' This function returns a numeric sequence corresponding to a text
-#' file, suitable for RQA use.
+#' This function cleans text data for use in RQA.
 #' @param <x> text file name
 #' @keywords clean text
 #' @export
 #' @examples
-#' prepareText()
+#' prepareText(letitbe)
 #'
 prepareText <- function(x) {          # Text file to read
   # ### ### ### ### ### ### ### ### ### ### ### ### ### ### ### ###
